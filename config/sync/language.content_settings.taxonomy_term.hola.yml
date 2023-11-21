@@ -1,0 +1,11 @@
+uuid: cb9adbe1-bb24-4b8b-9423-f36ed4f44c59
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.hola
+id: taxonomy_term.hola
+target_entity_type_id: taxonomy_term
+target_bundle: hola
+default_langcode: site_default
+language_alterable: false

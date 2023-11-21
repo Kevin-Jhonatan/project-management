@@ -861,9 +861,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'project_management',
-  'username' => 'kevin',
-  'password' => 'drupal',
+  'database' => 'dev_project',
+  'username' => 'cochasoft',
+  'password' => 'cochasoft',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -872,4 +872,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_QCBwC9ob5ZBFSPviOAXzncNvzCinBILBRb7nGWl2Nf-v6towFP8oGU-k36BMZTCAh9qd-R9M9Q/sync';
+$settings['config_sync_directory'] = '../config/sync';

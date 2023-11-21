@@ -1,0 +1,22 @@
+uuid: 85dc28ef-a65e-4cd3-ba51-e5e787e84053
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: cliente_node_title_
+label: 'cliente/[node:title]'
+type: 'canonical_entities:node'
+pattern: 'cliente/[node:title]'
+selection_criteria:
+  626faf9a-b678-4efe-bdd4-fa0e4a14921c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 626faf9a-b678-4efe-bdd4-fa0e4a14921c
+    context_mapping:
+      node: node
+    bundles:
+      cliente: cliente
+selection_logic: and
+weight: -5
+relationships: {  }

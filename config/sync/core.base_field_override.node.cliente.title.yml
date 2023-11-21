@@ -1,0 +1,18 @@
+uuid: eedeace7-7350-4711-b692-c91277030360
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.cliente
+id: node.cliente.title
+field_name: title
+entity_type: node
+bundle: cliente
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

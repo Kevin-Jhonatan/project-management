@@ -1,0 +1,22 @@
+uuid: 740dde5b-6bbc-40b9-819c-e5ea5fdf5ce0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_name
+    - node.type.cliente
+  module:
+    - text
+id: node.cliente.field_last_name
+field_name: field_last_name
+entity_type: node
+bundle: cliente
+label: Apellido
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

@@ -1,0 +1,13 @@
+uuid: f40d8708-b5f6-4be2-8cc6-f4b3eecc5f60
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Formulario de contacto personal'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Su mensaje ha sido enviado.'
+redirect: ''

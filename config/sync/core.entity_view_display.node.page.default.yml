@@ -1,0 +1,20 @@
+uuid: 6c08495d-654f-4146-a4e6-85c68267fcf2
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  links:
+    weight: 101
+    region: content
+hidden:
+  langcode: true

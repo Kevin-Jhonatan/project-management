@@ -1,0 +1,33 @@
+uuid: 022714aa-fe04-4dd1-8f30-0ec0de1fd2e5
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_state
+field_name: field_state
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Pendiente
+      label: Pendiente
+    -
+      value: 'En progreso'
+      label: 'En progreso'
+    -
+      value: Terminado
+      label: Terminado
+    -
+      value: Abandonado
+      label: Abandonado
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

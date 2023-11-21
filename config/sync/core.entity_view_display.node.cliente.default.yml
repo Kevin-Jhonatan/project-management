@@ -1,0 +1,57 @@
+uuid: a39a012d-a901-4228-9ad1-14f49ad627c3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.cliente.field_c_i_
+    - field.field.node.cliente.field_cellphone
+    - field.field.node.cliente.field_email
+    - field.field.node.cliente.field_last_name
+    - node.type.cliente
+  module:
+    - text
+    - user
+id: node.cliente.default
+targetEntityType: node
+bundle: cliente
+mode: default
+content:
+  field_c_i_:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_cellphone:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_last_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

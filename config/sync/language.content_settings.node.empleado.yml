@@ -1,0 +1,11 @@
+uuid: 9133d9d1-a39b-4298-b6d1-3228aa0cdadd
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.empleado
+id: node.empleado
+target_entity_type_id: node
+target_bundle: empleado
+default_langcode: site_default
+language_alterable: false

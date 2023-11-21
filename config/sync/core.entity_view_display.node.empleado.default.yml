@@ -1,0 +1,29 @@
+uuid: 798c866c-e653-442a-b84a-01e3635b6549
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.empleado.body
+    - node.type.empleado
+  module:
+    - text
+    - user
+id: node.empleado.default
+targetEntityType: node
+bundle: empleado
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

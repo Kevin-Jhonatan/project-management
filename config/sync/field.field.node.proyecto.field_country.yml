@@ -1,0 +1,22 @@
+uuid: b0837415-0db7-4570-b25a-1baf32cc5603
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.proyecto
+  module:
+    - text
+id: node.proyecto.field_country
+field_name: field_country
+entity_type: node
+bundle: proyecto
+label: País
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

@@ -1,0 +1,29 @@
+uuid: fe2bbb78-9d0c-40b8-8181-82cf9ad3fedb
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cliente.field_c_i_
+    - field.field.node.cliente.field_cellphone
+    - field.field.node.cliente.field_email
+    - field.field.node.cliente.field_last_name
+    - node.type.cliente
+  module:
+    - user
+id: node.cliente.teaser
+targetEntityType: node
+bundle: cliente
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_c_i_: true
+  field_cellphone: true
+  field_email: true
+  field_last_name: true
+  langcode: true

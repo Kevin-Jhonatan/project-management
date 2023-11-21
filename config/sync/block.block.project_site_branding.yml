@@ -1,0 +1,25 @@
+uuid: 6e26bf18-b88e-45a1-8f93-b9e5983fa7d9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - project
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: project_site_branding
+theme: project
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
