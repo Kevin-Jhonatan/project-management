@@ -1,0 +1,22 @@
+uuid: 6d1657b3-c2e1-45b6-80cd-1a7b70b026c7
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.about_us.field_description
+field_name: field_description
+entity_type: block_content
+bundle: about_us
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

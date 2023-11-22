@@ -1,10 +1,12 @@
-uuid: 4dbe3b60-69ed-41e4-8f89-eed6429a9b82
+uuid: b2992230-e3cf-46c1-b431-b62e560d8bae
 langcode: es
 status: true
 dependencies:
   config:
     - field.storage.node.field_cellphone
     - node.type.cliente
+  module:
+    - text
 id: node.cliente.field_cellphone
 field_name: field_cellphone
 entity_type: node
@@ -16,8 +18,5 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  min: 0
-  max: null
-  prefix: ''
-  suffix: ''
-field_type: integer
+  allowed_formats: {  }
+field_type: text

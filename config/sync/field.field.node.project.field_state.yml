@@ -1,0 +1,23 @@
+uuid: b5513502-8263-49a2-9d26-14ee08d9cd6c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_state
+    - node.type.project
+  module:
+    - options
+id: node.project.field_state
+field_name: field_state
+entity_type: node
+bundle: project
+label: Estado
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Pendiente
+default_value_callback: ''
+settings: {  }
+field_type: list_string

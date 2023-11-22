@@ -1,0 +1,21 @@
+uuid: 4bdf4b68-9a24-4d61-a68b-b8719f002027
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_priority
+    - node.type.project
+  module:
+    - options
+id: node.project.field_priority
+field_name: field_priority
+entity_type: node
+bundle: project
+label: Prioridad
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

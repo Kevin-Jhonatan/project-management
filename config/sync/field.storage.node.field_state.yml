@@ -1,4 +1,4 @@
-uuid: 022714aa-fe04-4dd1-8f30-0ec0de1fd2e5
+uuid: 068d5f03-4f09-452f-b076-6e924810aa70
 langcode: es
 status: true
 dependencies:
@@ -18,8 +18,8 @@ settings:
       value: 'En progreso'
       label: 'En progreso'
     -
-      value: Terminado
-      label: Terminado
+      value: Finalizado
+      label: Finalizado
     -
       value: Abandonado
       label: Abandonado

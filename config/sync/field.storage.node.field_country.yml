@@ -1,4 +1,4 @@
-uuid: f0233e2d-8345-4435-89b1-4356d8c10d5f
+uuid: bb20cc1f-6457-4362-8cb5-d4fa85332983
 langcode: es
 status: true
 dependencies:
@@ -10,7 +10,7 @@ field_name: field_country
 entity_type: node
 type: text
 settings:
-  max_length: 50
+  max_length: 40
 module: text
 locked: false
 cardinality: 1

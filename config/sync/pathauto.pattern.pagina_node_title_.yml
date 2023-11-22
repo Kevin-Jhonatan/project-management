@@ -1,0 +1,22 @@
+uuid: c52f73e5-01b9-4f32-b0a7-f3100035ba6c
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: pagina_node_title_
+label: 'pagina/[node:title]'
+type: 'canonical_entities:node'
+pattern: 'pagina/[node:title]'
+selection_criteria:
+  ba1f02f2-f4e9-4b2f-a2b3-08eb8fd429fb:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ba1f02f2-f4e9-4b2f-a2b3-08eb8fd429fb
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,8 @@
+uuid: a83ba283-992a-4b25-a575-6473c7af4ffe
+langcode: es
+status: true
+dependencies: {  }
+id: about_us
+label: 'Quienes somos'
+revision: 0
+description: ''

@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.cliente.field_c_i_
     - field.field.node.cliente.field_cellphone
     - field.field.node.cliente.field_email
     - field.field.node.cliente.field_last_name
+    - field.field.node.cliente.field_name
     - node.type.cliente
   module:
     - user
@@ -22,8 +22,8 @@ content:
     weight: 100
     region: content
 hidden:
-  field_c_i_: true
   field_cellphone: true
   field_email: true
   field_last_name: true
+  field_name: true
   langcode: true

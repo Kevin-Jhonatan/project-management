@@ -1,0 +1,30 @@
+uuid: e3328c41-0d70-4fd6-882b-fd5fef6e8d42
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:about_us:e4af23f6-b4cd-4dd0-86a8-52370b22b8b4'
+  module:
+    - block_content
+    - system
+  theme:
+    - project
+id: project_quienessomos
+theme: project
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:e4af23f6-b4cd-4dd0-86a8-52370b22b8b4'
+settings:
+  id: 'block_content:e4af23f6-b4cd-4dd0-86a8-52370b22b8b4'
+  label: 'Quienes somos'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

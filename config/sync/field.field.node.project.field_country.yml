@@ -1,0 +1,22 @@
+uuid: d81ed7ac-cbdc-4bf4-9051-0f05a1803f1a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country
+    - node.type.project
+  module:
+    - text
+id: node.project.field_country
+field_name: field_country
+entity_type: node
+bundle: project
+label: País
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

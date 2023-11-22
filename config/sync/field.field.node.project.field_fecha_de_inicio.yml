@@ -1,0 +1,24 @@
+uuid: a795f76e-ddec-41be-840f-9ac5e3e969c7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_de_inicio
+    - node.type.project
+  module:
+    - datetime
+id: node.project.field_fecha_de_inicio
+field_name: field_fecha_de_inicio
+entity_type: node
+bundle: project
+label: 'Fecha de Inicio'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

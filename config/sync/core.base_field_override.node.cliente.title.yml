@@ -8,7 +8,7 @@ id: node.cliente.title
 field_name: title
 entity_type: node
 bundle: cliente
-label: Nombre
+label: C.I.
 description: ''
 required: true
 translatable: true

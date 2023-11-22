@@ -1,17 +1,17 @@
-uuid: df40b331-b098-4420-bea3-a51a62d06fd2
+uuid: a78e6837-8c54-42aa-9120-9675e8dbec80
 langcode: es
 status: true
 dependencies:
   module:
     - node
+    - text
 id: node.field_cellphone
 field_name: field_cellphone
 entity_type: node
-type: integer
+type: text
 settings:
-  unsigned: false
-  size: normal
-module: core
+  max_length: 20
+module: text
 locked: false
 cardinality: 1
 translatable: true

@@ -1,0 +1,37 @@
+uuid: 2f991f5e-1d41-4109-af05-230755fd778f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.field_ci_client
+    - field.field.node.project.field_country
+    - field.field.node.project.field_fecha_de_entrega
+    - field.field.node.project.field_fecha_de_inicio
+    - field.field.node.project.field_price
+    - field.field.node.project.field_priority
+    - field.field.node.project.field_state
+    - field.field.node.project.field_tiempo_designado
+    - node.type.project
+  module:
+    - user
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ci_client: true
+  field_country: true
+  field_fecha_de_entrega: true
+  field_fecha_de_inicio: true
+  field_price: true
+  field_priority: true
+  field_state: true
+  field_tiempo_designado: true
+  langcode: true

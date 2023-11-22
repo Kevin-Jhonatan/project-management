@@ -1,0 +1,19 @@
+uuid: fea01649-9cb7-48dd-ba2c-a6f6c79d6664
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.footer
+    - field.storage.block_content.field_information
+id: block_content.footer.field_information
+field_name: field_information
+entity_type: block_content
+bundle: footer
+label: Información
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
